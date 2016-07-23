@@ -21,7 +21,7 @@ include 'MentorRegister.html';
 @$gender=$_POST['optradio'];
 
 @$Name=$_POST['name'];
-echo "$_POST['exp']";
+//echo "$_POST['exp']";
 
 	
 if(isset($username)&&isset($password)){
