@@ -172,7 +172,7 @@ $mmp->getPairDetails(2);
 						    </div>			        
 						    <div class="form-group">
 							<label for="Mentee">by Mentee</label>
-							<input type="textarea" class="form-control" id="Mentee" name="Mentee" style="overflow-x:scroll;overflow-y:scroll;height:30%;" <?php if($usertype=='mentor') echo "disabled"?>></label>
+							<input type="textarea" class="form-control" id="Mentee" id=<?php echo $meeting['id']?> style="overflow-x:scroll;overflow-y:scroll;height:30%;" <?php if($usertype=='mentor') echo "disabled"?>></label>
 						    </div>
 							</div>
 							<div id="demo1" class="collapse"><hr>

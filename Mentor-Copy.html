@@ -374,7 +374,16 @@ $mmp->getPairDetails(2);
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
-    
+    <script>
+        $("#update_feedback").on('click',function(e){
+            update_id = $(this).id;
+            feedback_mentor = $("#mentor_feedback"+id).val();
+            feedback_mentee = $("#mentee_feedback"+id).val();
+
+            console.log(update_id);
+            console.log(feedback_mentee);
+        });
+    </script>
     
 </body>
 </html>
