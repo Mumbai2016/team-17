@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Register as Mentor</title>
+    <title>Register as Mente</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
@@ -74,98 +74,55 @@
             </div>
 			<div class="panel-body">
 				<div class="container-fluid" style="padding-top:15px;padding-bottom:15px">
-					<form action="register.php" name="form" method="post">
+					<form action="mregister.php" name="form" method="post">
 						<div class="form-group">
 							<label for="name">NAME</label>
-							<input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+							<input type="text" class="form-control" id="name" name="mname" placeholder="Enter name">
 						</div>
 						<div class="form-group">
 							<label for="username">USER NAME</label>
-							<input type="text" class="form-control" id="username" name="username" placeholder="Enter user name">
+							<input type="text" class="form-control" id="username" name="musername" placeholder="Enter user name">
 						</div>
-						<div class="form-group">
+                        <div class="form-group">
 							<label for="address">Address</label>
 							<input type="text" class="form-control" id="address" name="address" placeholder="Enter the address">
 						</div>
-                        <div class="form-group">
+                        
+						<div class="form-group">
+							<label for="username">AGE</label>
+							<input type="text" class="form-control" id="username" name="mage" placeholder="Enter age">
+						</div>
+						<div class="form-group">
 							<label for="city">CITY</label>
-							<select name="city">
+							<select name="mcity">
 							<option value="Mumbai" >Mumbai</option>
 							<option value="Pune" >Pune</option>
 							<option value="Bangalore">Bangalore</option>
 							</select>
 							
 						</div>
-		
-						
-                        <div class="form-group">
+		<div class="form-group">
+							<label for="username">COLLEGE</label>
+							<input type="text" class="form-control" id="username" name="mcollege" placeholder="Enter college name">
+						</div>
+						<div class="form-group">
+							<label for="skills">Skills  </label>
+							
+					      <select name="pref" style="width: 420px; height:30px;">
+							<option value="Technology">Technology</option>
+                            <option value="Civil">Civil</option>
+							<option value="Mechanical">Mechanical</option>
+							<option value="Electronics">Electronics</option>
+							<option value="Finance">Finance</option>
+							<option value="Communication skill">Communication skill</option>
+							<option value="Moral">Moral</option>
+							</select>
+						</div>
+						<div class="form-group">
 							<label for="psw">PASSWORD</label>
 							<input type="password" class="form-control" id="psw" name="password" placeholder="Enter password">
 						</div>
-					    <div class="form-group">
-							<label for="job">JOB</label>
-							<input type="text" class="form-control" id="job" name="job" placeholder="Enter Job">
-						</div>
-						<div class="form-group">
-							<label for="jobexp">JOB EXPERIENCE</label>
-							<select name="exp">
-							<option value="0" >0-5</option>
-							<option value="5" >5-10</option>
-							<option value="10">10+</option>
-							</select>
-							
-						</div>
-		
-						<div class="form-group">
-							<label for="gender">GENDER</label><br>						
-						<label class="radio-inline">
-						<input type="radio" value="1" name="optradio">MALE
-						</label>
-						<label class="radio-inline">
-						<input type="radio" value="0" name="optradio">FEMALE
-						</label>
-				
-						</div>
-						<div class="form-group">
-							<label for="sset">SKILL SET</label>
-							 <div class="checkbox">
-							<label><input type="checkbox" name="ct" value="1">Computer Technology</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="civil" value="1">Civil</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="mech" value="1">Mechanical</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="elec" value="1">Electrical</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="tele" value="1">Telecommunication</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="fin" value="1">Finanace</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="vocab" value="1">Vocabulary</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="moral" value="1">Moral</label>
-							</div>
-							<div class="checkbox">
-							<label><input type="checkbox" name="guid" value="1">General Guidance</label>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="mail">EMAIL</label>
-							<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
-						</div>
-						<div class="form-group">
-							<label for="contact">CONTACT NO.</label>
-							<input type="tel" class="form-control" id="contact" name="contact" placeholder="Enter Mobile Number">
-						</div>
-						
-						<button class="btn btn-success btn-block" data-target="#location_picker-dialog" data-toggle="modal">Click hear to set location on map</button>
+					    
 						
 						<h2><button type="submit"  class="btn btn-success btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-off"></span> Register!</button></h2>
 					</form>
