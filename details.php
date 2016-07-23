@@ -63,7 +63,7 @@ margin: 10px;
 
 else
 {
-$query1="SELECT * from mentors where City=$city AND Mechanical=1";
+$query1="SELECT * from mentors where City='$city' AND $pref=1 AND available=0";
       $query_run1 = mysql_query($query1);
       @$row1=(mysql_fetch_assoc($query_run1));
       $mentor=$row1['Name'];
