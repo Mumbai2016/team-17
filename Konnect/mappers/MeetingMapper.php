@@ -42,6 +42,26 @@ class MeetingMapper {
             return FALSE;
         }
     }
+    
+     public function GetCompleteMeetings($pairId)
+    {
+        $meetings = array();
+        $sth = $this->databaseHandler->query("
+            SELECT * FROM meeting where
+            $pairId = $pairId
+            AND
+            success = 1
+            ");
+        $sth->setFetchMode(PDO::FETCH_BOTH);
+        if ($sth->rowCount() > 0) {
+            while ($ob = $sth->fetch()) {
+                array_push($meetings, $ob);
+            }
+            return $meetings;
+        } else {
+            return FALSE;
+        }
+    }
 
     public function GetSuccessfulMeetings($pairId)
     {

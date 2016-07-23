@@ -1,4 +1,11 @@
 
+<?php
+@session_start();
+@$userid=$_SESSION['user']['id'];
+echo "$userid";
+
+?>
+
 <html>
 <head>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -7,6 +14,51 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<title></title>
 	<script type="text/javascript" src="https://api.bistri.com/bistri.conference.min.js"></script>
+     
+	  <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css" >
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/material.css">
+    
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    
+    
+
+   
+
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/color/blue.css" title="blue">
+    
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+    
+    <!-- Modernizer js -->
+    <script src="assets/js/modernizr.custom.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 	<script type="text/javascript">
 		/*
@@ -138,7 +190,7 @@ onBistriConferenceReady = function () {
 
 // when button "Join Conference Room" has been clicked
 function joinConference(){
-    var roomToJoin = "vineet";
+    var roomToJoin = <?php echo  ?>;
     // if "Conference Name" field is not empty ...
     if( roomToJoin ){
         // ... join the room
@@ -200,28 +252,30 @@ function q( query ){
             background-color:#E6E6FA;
             }           
             .container-fluid{
-            background-image: linear-gradient(90deg, #4b6cb7, #182848);
+            color:#28ABE3;
             } 
+			.intro-text {
+				position: relative;
+				padding: 1% 0 1% 0;
+                        }
+		    
+			 .padd {
+			 margin-left:47%;
+			 }
 
  
 	</style>
 </head>
 <body>
     <div class="container-fluid" style="height:100px ">
-            <div>
-                <h1 class="col-sm-12 col-lg-9" style="top:25%"><strong><em>Coursecademy</strong></em></h1>
-            </div>
-            <div class="col-sm-12 col-lg-3" style="position:relative; top:25%; right:5%;">
-
-                <button id="profile" type="button" style=" float:right; display:block;" class="btn btn-lg btn-success">Profile</button>
-
-                <button type="button" style=" float:right; margin-right:10px " class="btn btn-lg btn-success">Courses</button>
+            <div class="intro-text">
+                <h1 class="col-sm-12 col-lg-9" style="top:50%;left:45%;"><strong>Video Chat</strong></h1>
             </div>
      </div>
     <div class="pane" id="pane_1" style="display: block">
 
         <br>
-        <input type="button" value="Join Conference Room" id="join" class="btn btn-info btn-default btn-block">
+        <input type="button" value="Start Video Chat" id="join" class="btn btn-info btn-default btn-lng padd">
     </div>
     
     <div class=" pane" id="pane_2" style="display: none">
