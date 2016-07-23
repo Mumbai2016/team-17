@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dash.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/details.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menteregister.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mregister.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mentor.php" afterPath="$PROJECT_DIR$/Mentor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MentorRegister.html" afterPath="$PROJECT_DIR$/MentorRegister.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tortoise.txt" afterPath="$PROJECT_DIR$/tortoise.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="team-17.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mentor.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mentor.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mentor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5384617" vertical-offset="1640" max-vertical-offset="5559">
-              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.4528302" vertical-offset="1589" max-vertical-offset="5559">
+              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32162163" vertical-offset="136" max-vertical-offset="850">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="136" max-vertical-offset="850">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <marker date="1469302027380" expanded="true" signature="764:981" placeholder="INSERT INTO ..." />
               </folding>
@@ -374,7 +366,19 @@
       <option name="project" value="LOCAL" />
       <updated>1469301848309</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;">
+      <created>1469302054660</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469302054660</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;">
+      <created>1469304537075</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1469304537075</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,7 +397,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -419,11 +423,11 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Sachin | Login" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
     <MESSAGE value="Sachin | Mentor- Mentee Pair details" />
     <MESSAGE value="Sachin | IC | Goals" />
     <MESSAGE value="Sachin | IC | Meeting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sachin | IC | Meeting" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -670,10 +674,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="136" max-vertical-offset="850">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1469302027380" expanded="true" signature="764:981" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mentor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5384617" vertical-offset="1640" max-vertical-offset="5559">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.4528302" vertical-offset="1589" max-vertical-offset="5559">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -696,16 +710,6 @@
             <marker date="1469301870170" expanded="true" signature="11132:11312" placeholder="..." />
             <marker date="1469301870170" expanded="true" signature="11348:11533" placeholder="..." />
             <marker date="1469301870170" expanded="true" signature="11551:11587" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32162163" vertical-offset="136" max-vertical-offset="850">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <marker date="1469302027380" expanded="true" signature="764:981" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
