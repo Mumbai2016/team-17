@@ -1,7 +1,6 @@
 
 <?php
-@session_start();
-@$userid=$_SESSION['user'][0]['id'];
+
 ?>
 
 <html>
@@ -188,9 +187,22 @@ onBistriConferenceReady = function () {
 
 // when button "Join Conference Room" has been clicked
 function joinConference(){
-    var roomToJoin = '<?php 
-    $query="select pair_id from mentor_mentee where mentor_id=$userid "
+    var roomToJoin = '<?php
+@session_start();
+@$userid=$_SESSION['user'][0]['ID'];
 
+echo "$userid";
+    @$dbh1 = mysqli_connect('localhost', 'root', '',"team17"); 
+@$dbh2 = mysqli_connect('localhost', 'root', '',true); 
+mysqli_select_db($dbh1,"team17");
+    $query="select  pair_id from mentor_mentee where mentor_id=$userid ";
+    
+     $comments = mysql_query($query);
+     
+    echo "$comments";
+    
+
+    
     ?>';
     // if "Conference Name" field is not empty ...
     if( roomToJoin ){
@@ -225,25 +237,27 @@ function q( query ){
 	</script>
 	<style type="text/css">
 			#video_container{
-			    
-                margin: 20px;
-                text-align: center;
-                width:100px;
-                height:50px; 
-                position:absolute;
-                top:350px;
-                left: 450px;
-                z-index: 1;
-			}
-            #video_container_2{
-                
+			    margin-left:10px;
                 margin: 20px;
                 text-align: center;
                 width:550px;
-                height:500px; 
+                height:550px; 
                 position:absolute;
                 top:250px;
-                left: 200px;
+                left: 750px;
+                z-index: 1;
+                float:left;
+			}
+            #video_container_2{
+                margin-right:0px;
+                margin: 20px;
+                text-align: center;
+                width:550px;
+                height:550px; 
+                position:absolute;
+                top:250px;
+                left: 100px;
+                float:right;
             }
             
 			video {
