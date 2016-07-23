@@ -1,21 +1,36 @@
 <?php
-$dbh1 = mysql_connect('localhost', 'root', ''); 
-$dbh2 = mysql_connect('localhost', 'root', '',true); 
-
-mysql_select_db('test', $dbh1);
-mysql_select_db('news', $dbh2);
-include 'regist.html';
+@$dbh1 = mysqli_connect('localhost', 'root', '',"team17"); 
+//@$dbh2 = mysqli_connect('localhost', 'root', '',true); 
+mysqli_select_db($dbh1,"team17");
+//mysqli_select_db($dbh2,"team17");
+include 'MentorRegister.html';
 @$username=$_POST['username'];
 @$password=$_POST['password'];
-@$nick=$_POST['nickname'];
-@$category=$_POST['type'];
+@$Technology=$_POST['ct'];
+@$Civil=$_POST['civil'];
+@$Mechanical=$_POST['mech'];
+@$Electronics=$_POST['elec'];
+@$Electrical=$_POST['tele'];
+@$Finance=$_POST['fin'];
+@$English=$_POST['vocab'];
+@$Moral=$_POST['moral'];
+@$Contact=$_POST['contact'];
+@$Experiance=$_POST['exp'];
+@$guidance=$_POST['guid'];
+
+@$gender=$_POST['optradio'];
+
+@$Name=$_POST['name'];
+echo "$_POST['exp']";
+
+	
 if(isset($username)&&isset($password)){
 	if(!empty($username)&&!empty($password)){
 
 
-		$query="INSERT INTO members values('$username','$password','$nick')";
+		$query="INSERT INTO mentors values('','job','$gender','address','city','$Technology','$Civil','$Mechanical','$Electronics','$Electrical','$Finance','$English','$Moral','$Contact','$Experiance','$password','$username','$Name')";
 		
-	$query_run=mysql_query($query,$dbh1);
+	$query_run=mysqli_query($dbh1,"$query");
 	
 	}
 			
