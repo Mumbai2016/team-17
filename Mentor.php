@@ -1,3 +1,15 @@
+<?php
+require_once 'Konnect/functions/Database.class.php';
+require_once 'Konnect/mappers/MeetingMapper.php';
+require_once 'Konnect/mappers/MentorMenteePair.php';
+
+$m = new MeetingMapper();
+$meetings = $m->GetScheduledMeetings(2);
+$mmp = new MentorMenteePair();
+$mmp->getPairDetails(2);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -99,56 +111,33 @@
             <div class="row">
                  <div class="col-md-12">
                     <div class="testimonial-section waves-effect">
-                    
+                        <!-- Repeated block of completed meeting STARTS -->
+                        <?php
+
+
+                        foreach($meetings as $meeting) {?>
                         <div class="latest-post waves-effect">
                             <h4>Meeting 1</h4>
-                            
-                            <p>Agenda:</p>
-							<p><strong>Date:</strong></p>
-							<p><strong>Time:</strong></p>
-							<p><strong>Venue:</strong></p>
+
+                            <p><strong>AGENDA : <?php echo $meeting['agenda'] ?></strong></p>
+							<p><strong>DATE : <?php  echo $meeting['date'] ?></strong></p>
+							<p><strong>TIME : <?php echo $meeting['time'] ?></strong></p>
+							<p><strong>VENUE : <?php echo $meeting['venue'] ?> </strong></p>
                             <a class="btn btn-primary" data-toggle="collapse" data-target="#demo">Feedback</a>
 							<div id="demo" class="collapse"><hr>
 							<div class="form-group">
 							<label for="Mentor">Feedback By Mentor</label>
-							<input type="textarea" class="form-control" id="Mentor" name="Mentor" style="overflow-x:scroll;overflow-y:scroll;height:30%" ></label>
+							<input type="textarea" class="form-control" id="Mentor" name="Mentor" style="overflow-x:scroll;overflow-y:scroll;height:30%" value = "<?php echo $meeting['feedback_mentor']?>"></label>
 						    </div>
 						<div class="form-group">
 							<label for="Mentee">Feedback by Mentee</label>
-							<input type="textarea" class="form-control" id="Mentee" name="Mentee" style="overflow-x:scroll;overflow-y:scroll;height:30%;"></label>
+							<input type="textarea" class="form-control" id="Mentee" name="Mentee" style="overflow-x:scroll;overflow-y:scroll;height:30%;" value="<?php echo $meeting['feedback_mentee']?>"></label>
 						</div>
 							</div>
                         </div>
-                    
-                    
-                        <div class="latest-post waves-effect">
-                            <h4>Meeting 2</h4>
-                            
-                            <p>Agenda:</p>
-							<p><strong>Date:</strong></p>
-							<p><strong>Time:</strong></p>
-							<p><strong>Venue:</strong></p>
-                            <a class="btn btn-primary">Feedback</a>
-                        </div>
-						<div class="latest-post waves-effect">
-                            <h4>Meeting 2</h4>
-                            
-                            <p>Agenda:</p>
-							<p><strong>Date:</strong></p>
-							<p><strong>Time:</strong></p>
-							<p><strong>Venue:</strong></p>
-                            <a class="btn btn-primary">Feedback</a>
-                        </div>
-						
-						 <div class="latest-post waves-effect">
-                            <h4>Meeting 3</h4>
-                            
-                            <p>Agenda:</p>
-							<p><strong>Date:</strong></p>
-							<p><strong>Time:</strong></p>
-							<p><strong>Venue:</strong></p>
-                            <a class="btn btn-primary">Feedback</a>
-                        </div>
+                        <?php } ?>
+                    <!-- Repeated block of completed meeting ENDS -->
+
                  </div>
                </div>
                

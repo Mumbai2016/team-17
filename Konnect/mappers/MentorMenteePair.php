@@ -34,7 +34,7 @@ class MentorMenteePair {
     public function GetMenteeByMenterId($mentorId)
     {
         $users = array();
-        $sth = $this->databaseHandler->query("SELECT * FROM mentees where ID =  (SELECT mentee_id from mentor_mentee where mentor_id = $mentorId) ");
+        $sth = $this->databaseHandler->query("SELECT * FROM mentees where ID =  (SELECT mentee_id from mentor_mentee where mentor_id = $menteeId) ");
         $sth->setFetchMode(PDO::FETCH_BOTH);
         if ($sth->rowCount() > 0) {
             while ($ob = $sth->fetch()) {
@@ -49,7 +49,8 @@ class MentorMenteePair {
     public function getPairDetails($pairId)
     {
         $users = array();
-        $sth = $this->databaseHandler->query("SELECT * FROM mentees where pair_id = $pairId ");
+        $sth = $this->databaseHandler->query("select * from mentors m1,mentees m2,mentor_mentee p
+            where m1.id = p.mentor_id AND m2.sid = p.mentee_id AND p.pair_id = $pairId   ");
         $sth->setFetchMode(PDO::FETCH_BOTH);
         if ($sth->rowCount() > 0) {
             while ($ob = $sth->fetch()) {
