@@ -74,7 +74,7 @@
             </div>
 			<div class="panel-body">
 				<div class="container-fluid" style="padding-top:15px;padding-bottom:15px">
-					<form role="form" name="form" method="post" action="csignup.php">
+					<form action="register.php" name="form" method="post">
 						<div class="form-group">
 							<label for="name">NAME</label>
 							<input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
@@ -102,23 +102,23 @@
 						<div class="form-group">
 							<label for="gender">GENDER</label><br>						
 						<label class="radio-inline">
-						<input type="radio" name="optradio">MALE
+						<input type="radio" value="1" name="optradio">MALE
 						</label>
 						<label class="radio-inline">
-						<input type="radio" name="optradio">FEMALE
+						<input type="radio" value="0" name="optradio">FEMALE
 						</label>
 				
 						</div>
 						<div class="form-group">
 							<label for="sset">SKILL SET</label>
 							 <div class="checkbox">
-							<label><input type="checkbox" value="">Computer Technology</label>
+							<label><input type="checkbox" name="ct" value="1">Computer Technology</label>
 							</div>
 							<div class="checkbox">
-							<label><input type="checkbox" value="">Civil</label>
+							<label><input type="checkbox" name="civil" value="1">Civil</label>
 							</div>
 							<div class="checkbox">
-							<label><input type="checkbox" value="">Mechanical</label>
+							<label><input type="checkbox" name="mech" value="">Mechanical</label>
 							</div>
 							<div class="checkbox">
 							<label><input type="checkbox" value="">Electrical</label>
@@ -150,7 +150,7 @@
 						
 						<button class="btn btn-success btn-block" data-target="#location_picker-dialog" data-toggle="modal">Click hear to set location on map</button>
 						
-						<h2><button type="submit" onclick="submitForm()" class="btn btn-success btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-off"></span> Register!</button></h2>
+						<h2><button type="submit"  class="btn btn-success btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-off"></span> Register!</button></h2>
 					</form>
 				</div>
 			</div>

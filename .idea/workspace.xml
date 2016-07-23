@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loginmentor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Konnect/registermentor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konnect/functions/Database.class.php" afterPath="$PROJECT_DIR$/Konnect/functions/Database.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php" afterPath="$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konnect/mappers/MentorMapper.php" afterPath="$PROJECT_DIR$/Konnect/mappers/MentorMapper.php" />
+    <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mentees.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mentors.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/mentors.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MentorRegister.html" afterPath="$PROJECT_DIR$/MentorRegister.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="team-17.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,14 +41,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginmentor.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginmentor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginmentor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4295302" vertical-offset="186" max-vertical-offset="969">
+            <state vertical-scroll-proportion="-9.846154" vertical-offset="186" max-vertical-offset="969">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <marker date="1469282826532" expanded="true" signature="170:317" placeholder="SELECT * FRO..mentee..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66753924" vertical-offset="0" max-vertical-offset="595">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -264,12 +270,20 @@
       <option name="number" value="Default" />
       <updated>1469267514371</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sachin | Login">
+      <created>1469282867261</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1469282867261</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1311" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -279,7 +293,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -306,6 +320,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Sachin | Login" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -365,16 +382,6 @@
         <state vertical-scroll-proportion="0.05704698" vertical-offset="0" max-vertical-offset="596">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="595">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1469272696218" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,11 +463,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loginmentor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4295302" vertical-offset="186" max-vertical-offset="969">
+        <state vertical-scroll-proportion="-9.846154" vertical-offset="186" max-vertical-offset="969">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <marker date="1469282826532" expanded="true" signature="170:317" placeholder="SELECT * FRO..mentee..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66753924" vertical-offset="0" max-vertical-offset="595">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
