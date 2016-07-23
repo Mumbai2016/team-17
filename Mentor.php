@@ -75,9 +75,6 @@ $mmp->getPairDetails(2);
 <body class="index">  
     <div class="menu-wrap">
 		<nav class="menu">
-		 <div style="margin-top:5%;margin-left:5%;">
-	     <p>Request Meeting</p>
-	     </div>
 			<div class="icon-list">
 			<div style="line-height:0.0001em;margin-bottom:15px;">
 			    <h2 class="logo1">Welcome</h2>
@@ -97,6 +94,8 @@ $mmp->getPairDetails(2);
 			<a href="#" onclick="addup()"><span data-toggle="modal" data-target="#myModal1" style="margin-right:3%;">&#x2795;</span></a>
 			</div>
 			
+			
+ <!--section start-->
     <section id="latest-news" class="latest-news-section">
 	
         <div class="container">
@@ -146,10 +145,24 @@ $mmp->getPairDetails(2);
     </section>
     <!-- End Latest News Section -->
 	
+	<h1>Pure CSS Star Rating Widget</h1>
+<fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+	
 	<!-- section 2 -->
 	<section id="latest-news" class="latest-news-section">
 	
-        <div class="container">
+        <div class="container" style="background-color:#ff555;">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
@@ -211,6 +224,23 @@ $mmp->getPairDetails(2);
     </section>
     <!-- End Latest News Section -->
 	
+	
+	<!--Goal-->
+	<section id="latest-news" class="latest-news-section">
+	
+        <div class="container" style="color:#ff555;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2>Meeting Scheduled</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+    </section>
+	
 	<!-- Modal1 -->
 	  <div class="modal fade" id="myModal1" role="dialog">
     <div class="modal-dialog">
@@ -228,8 +258,8 @@ $mmp->getPairDetails(2);
               <input type="text" class="form-control" id="agenda" name="agenda" placeholder="Enter Agenda">
             </div>
 			<div class="form-group">
-              <label for="time"><span>Date:</span></label>
-              <input type="text" class="form-control" id="meetdate" name="meetdate" placeholder="Enter Date">
+              <label for="date"><span>Date:</span></label>
+              <input type="date" class="form-control" id="meetdate" name="meetdate" placeholder="Enter Date">
             </div>
               
 			<div class="form-group">
