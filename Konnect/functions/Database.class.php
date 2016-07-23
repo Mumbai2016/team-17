@@ -11,7 +11,7 @@
 final class Database {
 
     # variables that store connection information
-    private static $dsn = "mysql:host=localhost;dbname=hoto";
+    private static $dsn = "mysql:host=localhost;dbname=team17";
     private static $user = "root";
     private static $pass = "";
 
