@@ -327,7 +327,7 @@ $mmp->getPairDetails(2);
           <h4><span>&#x2795;</span> Request Meet</h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-          <form role="form" action="login.php" method="post" name="form">
+          <form  action="RequestMeet.php" method="GET" name="form">
 		     <div class="form-group">
               <label for="time"><span>Agenda:</span></label>
               <input type="text" class="form-control" id="agenda" name="agenda" placeholder="Enter Agenda">
@@ -349,7 +349,7 @@ $mmp->getPairDetails(2);
             <div>
             <br>
             </div>
-              <button type="submit" onclick="submitForm()" class="btn btn-success btn-block" data-dismiss="modal" ><span class="glyphicon glyphicon-off"></span>Submit</button>
+              <input type="submit" class="btn btn-success btn-block"  ><span class="glyphicon glyphicon-off"></span>Submit</button>
           </form>
         </div>     
     </div>
@@ -392,7 +392,7 @@ $mmp->getPairDetails(2);
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
     <script >
-        $("");
+
 
     </script>
     
