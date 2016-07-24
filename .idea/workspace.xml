@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SendAutomatedSMS.php" afterPath="$PROJECT_DIR$/SendAutomatedSMS.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="team-17.iws" />
@@ -129,8 +128,8 @@
       <file leaf-file-name="videoch.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/videoch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19396552" vertical-offset="2528" max-vertical-offset="4964">
-              <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6336207" vertical-offset="2528" max-vertical-offset="4964">
+              <caret line="166" column="49" selection-start-line="166" selection-start-column="49" selection-end-line="166" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -432,7 +431,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469332032406</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Minor touch">
+      <created>1469333955545</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1469333955545</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,7 +491,8 @@
     <MESSAGE value="Sachin | Request Meeting" />
     <MESSAGE value="Sachin | Replaced with dbconnect" />
     <MESSAGE value="Sachin | SMS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sachin | SMS" />
+    <MESSAGE value="Minor touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor touch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -920,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/videoch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19396552" vertical-offset="2528" max-vertical-offset="4964">
-          <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6336207" vertical-offset="2528" max-vertical-offset="4964">
+          <caret line="166" column="49" selection-start-line="166" selection-start-column="49" selection-end-line="166" selection-end-column="49" />
           <folding />
         </state>
       </provider>
