@@ -1,8 +1,6 @@
 <?php
-@$dbh1 = mysqli_connect('localhost', 'root', '',"team17"); 
-//@$dbh2 = mysqli_connect('localhost', 'root', '',true); 
-mysqli_select_db($dbh1,"team17");
-//mysqli_select_db($dbh2,"team17");
+require_once 'dbconnect.php';
+
 include 'MentorRegister.html';
 @$username=$_POST['username'];
 @$password=$_POST['password'];

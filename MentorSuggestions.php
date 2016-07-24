@@ -5,7 +5,7 @@
  * Date: 7/23/2016
  * Time: 8:34 PM
  */
-
+require_once 'dbconnect.php';
 require_once 'Konnect/functions/Database.class.php';
 require_once 'Konnect/mappers/MentorSuggestions.php';
 

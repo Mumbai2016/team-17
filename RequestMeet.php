@@ -6,7 +6,7 @@
  * Time: 6:32 AM
  */
 
-
+require_once 'dbconnect.php';
 
 $agenda= $_GET['agenda'];
 $date = $_GET['meetdate'];
@@ -15,11 +15,6 @@ $venue = $_GET['venue'];
 
 
 
-@$dbh1 = mysql_connect('localhost', 'root', '');
-@$dbh2 = mysql_connect('localhost', 'root', '',true);
-
-@mysql_select_db('team17', $dbh1);
-@mysql_select_db('team17', $dbh2);
 
 $query="INSERT INTO meeting (agenda,date,time,venue) values ('$agenda','$date','$time','$venue') ";
 echo $query;

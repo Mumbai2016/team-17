@@ -6,6 +6,9 @@
  * Time: 11:03 PM
  */
 
+require_once 'dbconnect.php';
+
+
 $from = '07709181070';
 $to = '09167760772';
 $body = "Hi Raunaq, your number 121 is now turned .";

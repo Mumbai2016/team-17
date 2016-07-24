@@ -2,6 +2,7 @@
 @session_start();
 @$usertype=$_SESSION['user_type'];
 
+require_once 'dbconnect.php';
 
 require_once 'Konnect/functions/Database.class.php';
 require_once 'Konnect/mappers/MeetingMapper.php';
