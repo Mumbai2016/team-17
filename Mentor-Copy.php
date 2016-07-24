@@ -150,7 +150,7 @@ $mmp->getPairDetails(2);
                  <div class="col-md-12">
 
                     <!-- PHP starts here -->
-                    <div class="testimonial-section waves-effect">
+                    <div class="testimonial-section">
                     <?php
 
 
@@ -162,29 +162,42 @@ $mmp->getPairDetails(2);
                             <p><strong>DATE : <?php  echo $meeting['date'] ?></strong></p>
                             <p><strong>TIME : <?php echo $meeting['time'] ?></strong></p>
                             <p><strong>VENUE : <?php echo $meeting['venue'] ?> </strong></p>
+
                             <a class="btn btn-primary" data-toggle="collapse" data-target="#demo" style="float:right;">Experience</a>
 
 							<a class="btn btn-primary" data-toggle="collapse" data-target="#demo1" style="float:left;">Feedback</a>
-							<div id="demo" class="collapse"><hr>
+
+                            <!-- Experience -->
+                            <div id="demo" class="collapse"><hr>
 							<div class="form-group">
 							<label for="Mentor">By Mentor</label>
 							<input type="textarea" class="form-control" id="Mentor" name="Mentor" style="overflow-x:scroll;overflow-y:scroll;height:30%;"  <?php if($usertype=='mentee') echo "disabled"?> ></label>
-						    </div>			        
+						    </div>
 						    <div class="form-group">
 							<label for="Mentee">by Mentee</label>
-							<input type="textarea" class="form-control" id="Mentee" id=<?php echo $meeting['id']?> style="overflow-x:scroll;overflow-y:scroll;height:30%;" <?php if($usertype=='mentor') echo "disabled"?>></label>
+							<input type="textarea" class="form-control"  id=<?php echo "input_mentee".$meeting['id']?> style="overflow-x:scroll;overflow-y:scroll;height:30%;" <?php if($usertype=='mentor') echo "disabled"?>></label>
 						    </div>
 							</div>
-							<div id="demo1" class="collapse"><hr>
-							<div class="form-group">
-							<label for="Mentor">Rate this meeting</label>
-							<input type="number" name="quantity" min="1" max="5">
-						    </div>
-						<div class="form-group">
-							<label for="Mentee">By Mentee</label>
-							<input type="textarea" class="form-control" id="Mentee" name="Mentee" style="overflow-x:scroll;overflow-y:scroll;height:30%;"></label>
-						</div>
-							</div>
+                            <!-- Experience ends -->
+
+                            <!-- Feedback starts -->
+							<form name="update_fb" id="<?php echo $meeting['id']; ?>" action="update_feedback.php" method="POST">
+                            <div id="demo1" class="collapse"><hr>
+                                <div class="form-group">
+                                <label for="Mentor">Rate this meeting</label>
+                                <input type="number" name="input_feedback_rate" id=<?php echo "input_rate_mentor_".$meeting['id']?> min="1" max="5">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Mentee">By Mentee</label>
+                                    <input type="textarea" class="form-control" id=<?php echo "input_feedback_mentor_".$meeting['id']?> name="input_feedback_mentor" style="overflow-x:scroll;overflow-y:scroll;height:30%;"></label>
+                                </div>
+                                <input type="hidden" name="id" value= "<?php echo $meeting['id']; ?>"
+                                <a class="btn btn-primary btn-feedback" data-toggle="collapse" name="" style="float:right;">Experience</a>
+                                <input type="submit">
+                            </div>
+                            </form>
+                            <!-- Feedback  ends -->
+
 							  <?php } ?>
                     <!-- Repeated block of completed meeting ENDS -->
 
@@ -234,12 +247,12 @@ $mmp->getPairDetails(2);
 							<div id="demo" class="collapse"><hr>
                                 <div class="form-group">
                                 <label for="Mentor">Feedback By Mentor</label>
-                                <input type="textarea" class="form-control" id="Mentor" name="Mentor" style="overflow-x:scroll;overflow-y:scroll;height:30%" value = "<?php echo $meeting['feedback_mentor']?>"></label>
+                                <input type="textarea" class="form-control" id= <?php echo "mentor_meeting".$meeting['id'] ?> name="mentor_feedback_rate" style="overflow-x:scroll;overflow-y:scroll;height:30%" value = "<?php echo $meeting['feedback_mentor']?>"></label>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="Mentee">Feedback by Mentee</label>
-                                    <input type="textarea" class="form-control" id="Mentee" name="Mentee" style="overflow-x:scroll;overflow-y:scroll;height:30%;" value="<?php echo $meeting['feedback_mentee']?>"></label>
+                                    <input type="textarea" class="form-control" id= <?php echo "mentee_meeting".$meeting['id'] ?> name="mentor_feedback_" style="overflow-x:scroll;overflow-y:scroll;height:30%;" value="<?php echo $meeting['feedback_mentee']?>"></label>
                                 </div>
 
                             </div>
@@ -365,7 +378,7 @@ $mmp->getPairDetails(2);
 
     <!-- Contact Form JavaScript -->
     <script src="assets/js/jqBootstrapValidation.js"></script>
-    <script src="assets/js/contact_me.js"></script>
+    <!--<script src="assets/js/contact_me.js"></script>-->
 
     <!-- Materialize js -->
     <script src="assets/js/material.js"></script>
@@ -377,7 +390,10 @@ $mmp->getPairDetails(2);
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
-    
+    <script >
+        $("");
+
+    </script>
     
 </body>
 </html>

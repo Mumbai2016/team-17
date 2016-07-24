@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Konnect/UpdateFeedback.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mentor-Copy.html" afterPath="$PROJECT_DIR$/Mentor-Copy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update_feedback.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mentor-Copy.php" afterPath="$PROJECT_DIR$/Mentor-Copy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,8 +32,8 @@
       <file leaf-file-name="deleteMeeting.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deleteMeeting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="340">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <marker date="1469310200963" expanded="true" signature="211:241" placeholder="DELETE from ..." />
               </folding>
@@ -45,8 +44,8 @@
       <file leaf-file-name="UpdateFeedback.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Konnect/UpdateFeedback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.192307" vertical-offset="76" max-vertical-offset="527">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.961538" vertical-offset="63" max-vertical-offset="527">
+              <caret line="22" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <marker date="1469310413583" expanded="true" signature="433:487" placeholder="UPDATE meeti..." />
@@ -57,21 +56,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mentor-Copy.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mentor-Copy.html">
+      <file leaf-file-name="Mentor-Copy.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mentor-Copy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26486486" vertical-offset="6260" max-vertical-offset="6715">
-              <caret line="374" column="30" selection-start-line="374" selection-start-column="30" selection-end-line="374" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="-4.2727275" vertical-offset="2842" max-vertical-offset="6885">
+              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mentor-Copy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mentor-Copy.php">
+      <file leaf-file-name="update_feedback.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update_feedback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="578" max-vertical-offset="6613">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.41379312" vertical-offset="233" max-vertical-offset="731">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
+                <marker date="1469320587092" expanded="true" signature="481:535" placeholder="UPDATE meeti..." />
+                <marker date="1469320587092" expanded="true" signature="481:547" placeholder="UPDATE meeti..." />
+                <marker date="1469320587092" expanded="true" signature="481:548" placeholder="UPDATE meeti..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mentor-Copy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mentor-Copy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.923077" vertical-offset="3812" max-vertical-offset="6715">
+              <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,6 +129,7 @@
         <option value="$PROJECT_DIR$/Konnect/UpdateFeedback.php" />
         <option value="$PROJECT_DIR$/Mentor-Copy.html" />
         <option value="$PROJECT_DIR$/Mentor-Copy.php" />
+        <option value="$PROJECT_DIR$/update_feedback.php" />
       </list>
     </option>
   </component>
@@ -321,7 +346,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469304547232</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sachin | IC">
+      <created>1469316210664</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1469316210664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -340,7 +371,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20307693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -370,7 +401,8 @@
     <MESSAGE value="Sachin | IC | Goals" />
     <MESSAGE value="Sachin | IC | Meeting" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Mumbai2016/team-17&#10;&#10;Conflicts:&#10;&#9;register.php&#10;" />
+    <MESSAGE value="Sachin | IC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sachin | IC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -563,7 +595,7 @@
         <state vertical-scroll-proportion="0.2915952" vertical-offset="0" max-vertical-offset="799">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
+            <element signature="e#6#89#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -657,20 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteMeeting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="340">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <marker date="1469310200963" expanded="true" signature="211:241" placeholder="DELETE from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Konnect/UpdateFeedback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.192307" vertical-offset="76" max-vertical-offset="527">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.961538" vertical-offset="63" max-vertical-offset="527">
+          <caret line="22" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <marker date="1469310413583" expanded="true" signature="433:487" placeholder="UPDATE meeti..." />
@@ -680,19 +702,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mentor-Copy.php">
+    <entry file="file://$PROJECT_DIR$/deleteMeeting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="578" max-vertical-offset="6613">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <marker date="1469310200963" expanded="true" signature="211:241" placeholder="DELETE from ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mentor-Copy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26486486" vertical-offset="6260" max-vertical-offset="6715">
-          <caret line="374" column="30" selection-start-line="374" selection-start-column="30" selection-end-line="374" selection-end-column="30" />
+        <state vertical-scroll-proportion="-12.923077" vertical-offset="3812" max-vertical-offset="6715">
+          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mentor-Copy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2727275" vertical-offset="2842" max-vertical-offset="6885">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31485587" vertical-offset="1235" max-vertical-offset="3944">
+          <caret line="81" column="3" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41379312" vertical-offset="233" max-vertical-offset="731">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1469320587092" expanded="true" signature="481:535" placeholder="UPDATE meeti..." />
+            <marker date="1469320587092" expanded="true" signature="481:547" placeholder="UPDATE meeti..." />
+            <marker date="1469320587092" expanded="true" signature="481:548" placeholder="UPDATE meeti..." />
+          </folding>
         </state>
       </provider>
     </entry>
