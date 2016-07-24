@@ -6,7 +6,7 @@
     require_once 'Konnect/mappers/MenteeMapper.php';
     require_once 'Konnect/mappers/MentorMenteePair.php';
 
-    require_once 'SendAutomatedSMS.php';
+    require_once 'SendSMS.php';
     $pair_id = $_GET['pair_id'];
 
     $query="SELECT mentor_id from mentor_mentee where pair_id=$pair_id ";
