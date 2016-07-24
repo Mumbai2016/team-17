@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="Sachin | Replaced with dbconnect">
+    <list default="true" id="c9dc8840-60df-4561-8ca9-905c54ed9436" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ManageUnscheduledMeetings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SendAutomatedSMS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php" afterPath="$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konnect/mappers/MentorMapper.php" afterPath="$PROJECT_DIR$/Konnect/mappers/MentorMapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php" afterPath="$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SendSMS.php" afterPath="$PROJECT_DIR$/SendSMS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbconnect.php" afterPath="$PROJECT_DIR$/dbconnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menteregister.html" afterPath="$PROJECT_DIR$/menteregister.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mregister.php" afterPath="$PROJECT_DIR$/mregister.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="team-17.iws" />
@@ -27,95 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dbconnect.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dbconnect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51293105" vertical-offset="0" max-vertical-offset="464">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteMeeting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteMeeting.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <marker date="1469324008675" expanded="true" signature="66:96" placeholder="DELETE from ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dash.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dash.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.538462" vertical-offset="386" max-vertical-offset="5117">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <marker date="1469316238097" expanded="true" signature="5371:5405" placeholder="Select * fro..mentees..." />
-                <marker date="1469316238097" expanded="false" signature="5659:5904" placeholder="..." />
-                <marker date="1469316238097" expanded="true" signature="5905:6260" placeholder="..." />
-                <marker date="1469316238097" expanded="true" signature="6655:6688" placeholder="Select * fro..mentees..." />
-                <marker date="1469316238097" expanded="false" signature="6951:7196" placeholder="..." />
-                <marker date="1469316238097" expanded="true" signature="7197:7552" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateFeedback.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Konnect/UpdateFeedback.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.961538" vertical-offset="37" max-vertical-offset="527">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1469310413583" expanded="true" signature="433:525" placeholder="UPDATE meeti..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registermentor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Konnect/registermentor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.576923" vertical-offset="50" max-vertical-offset="714">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1469278728903" expanded="true" signature="365:502" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mregister.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mregister.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="646">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-              <folding>
-                <marker date="1469324150704" expanded="true" signature="385:492" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,24 +49,130 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videoch.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoch.php">
+      <file leaf-file-name="MentorMapper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Konnect/mappers/MentorMapper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="4437" max-vertical-offset="5219">
-              <caret line="262" column="8" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
+            <state vertical-scroll-proportion="-13.769231" vertical-offset="628" max-vertical-offset="1122">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding>
-                <marker date="1469316238099" expanded="true" signature="6908:6959" placeholder="select pair_..mentor_mentee..." />
+                <marker date="1469327525606" expanded="true" signature="420:495" placeholder="SELECT * FRO..mentors..." />
+                <marker date="1469327525606" expanded="true" signature="880:899" placeholder="SELECT * FRO..place..." />
+                <marker date="1469327525606" expanded="true" signature="1306:1313" placeholder="SELECT * FRO..mento..." />
+                <marker date="1469327525606" expanded="true" signature="1306:1345" placeholder="SELECT phone..mentor..." />
+                <marker date="1469327525606" expanded="true" signature="1306:1346" placeholder="SELECT phone..mentor..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videoch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoch.html">
+      <file leaf-file-name="ManageUnscheduledMeetings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageUnscheduledMeetings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="4964">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state vertical-scroll-proportion="-13.269231" vertical-offset="80" max-vertical-offset="663">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MentorMenteePair.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="646" max-vertical-offset="1326">
+              <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+              <folding>
+                <marker date="1469330313745" expanded="true" signature="377:476" placeholder="SELECT * FRO..mentors..." />
+                <marker date="1469330313745" expanded="true" signature="412:466" placeholder="SELECT mento..mentor_mentee..." />
+                <marker date="1469330313745" expanded="true" signature="873:972" placeholder="SELECT * FRO..mentees..." />
+                <marker date="1469330313745" expanded="true" signature="908:962" placeholder="SELECT mente..mentor_mentee..." />
+                <marker date="1469330313745" expanded="true" signature="1364:1533" placeholder="select m1.id..mentors..." />
+                <marker date="1469330313745" expanded="true" signature="1930:1988" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20842572" vertical-offset="3833" max-vertical-offset="6545">
+              <caret line="231" column="29" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mentor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mentor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="3026" max-vertical-offset="5474">
+              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendSMS.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SendSMS.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="918">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendAutomatedSMS.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SendAutomatedSMS.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.038462" vertical-offset="301" max-vertical-offset="816">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <marker date="1469331910818" expanded="true" signature="382:432" placeholder="SELECT * fro..mentor_mentee..." />
+                <marker date="1469331910818" expanded="true" signature="382:433" placeholder="SELECT * fro..mentor_mentee..." />
+                <marker date="1469331910818" expanded="true" signature="608:658" placeholder="SELECT mente..mentor_mentee..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbconnect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbconnect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1581">
+              <caret line="11" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1469316238098" expanded="true" signature="212:244" placeholder="SELECT * fro..mentees..." />
+                <marker date="1469316238098" expanded="true" signature="562:593" placeholder="SELECT * fro..mentors..." />
+                <marker date="1469316238098" expanded="false" signature="746:910" placeholder="..." />
+                <marker date="1469316238098" expanded="true" signature="911:1131" placeholder="..." />
+                <marker date="1469316238098" expanded="true" signature="1169:1237" placeholder="SELECT * fro..mentors..." />
+                <marker date="1469316238098" expanded="false" signature="1382:1546" placeholder="..." />
+                <marker date="1469316238098" expanded="true" signature="1547:1770" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,28 +188,33 @@
         <option value="$PROJECT_DIR$/Konnect/api/index.php" />
         <option value="$PROJECT_DIR$/Konnect/registermentor.php" />
         <option value="$PROJECT_DIR$/Konnect/functions/Database.class.php" />
-        <option value="$PROJECT_DIR$/Konnect/mappers/MentorMapper.php" />
-        <option value="$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php" />
         <option value="$PROJECT_DIR$/loginmentor.php" />
         <option value="$PROJECT_DIR$/Konnect/mappers/MentorSuggestions.php" />
         <option value="$PROJECT_DIR$/Konnect/mappers/GoalMappers.php" />
         <option value="$PROJECT_DIR$/Konnect/Goals.php" />
         <option value="$PROJECT_DIR$/Goals.php" />
         <option value="$PROJECT_DIR$/Konnect/mappers/MeetingMapper.php" />
-        <option value="$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php" />
         <option value="$PROJECT_DIR$/Mentor.php" />
         <option value="$PROJECT_DIR$/MentorNotifs.html" />
         <option value="$PROJECT_DIR$/Konnect/UpdateFeedback.php" />
         <option value="$PROJECT_DIR$/Mentor-Copy.html" />
         <option value="$PROJECT_DIR$/update_feedback.php" />
         <option value="$PROJECT_DIR$/deleteMeeting.php" />
-        <option value="$PROJECT_DIR$/SendSMS.php" />
         <option value="$PROJECT_DIR$/RequestMeet.php" />
         <option value="$PROJECT_DIR$/MentorSuggestions.php" />
         <option value="$PROJECT_DIR$/Mentor-Copy.php" />
-        <option value="$PROJECT_DIR$/mregister.php" />
         <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/Konnect/models/Mentor.class.php" />
+        <option value="$PROJECT_DIR$/menteregister.html" />
+        <option value="$PROJECT_DIR$/mregister.php" />
+        <option value="$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php" />
+        <option value="$PROJECT_DIR$/Konnect/mappers/MentorMapper.php" />
+        <option value="$PROJECT_DIR$/ManageUnscheduledMeetings.php" />
+        <option value="$PROJECT_DIR$/Admin.php" />
+        <option value="$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php" />
         <option value="$PROJECT_DIR$/dbconnect.php" />
+        <option value="$PROJECT_DIR$/SendSMS.php" />
+        <option value="$PROJECT_DIR$/SendAutomatedSMS.php" />
       </list>
     </option>
   </component>
@@ -399,7 +431,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469325068569</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Sachin | Replaced with dbconnect">
+      <created>1469325093810</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1469325093810</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -523,26 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.038462" vertical-offset="407" max-vertical-offset="1003">
-          <caret line="50" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1469282193829" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mentees..." />
-            <marker date="1469282193829" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..place..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Konnect/models/Mentor.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Konnect/mappers/GoalMappers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="595">
@@ -560,17 +578,6 @@
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Konnect/mappers/MentorMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1469282095260" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mentors..." />
-            <marker date="1469282095260" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..place..." />
           </folding>
         </state>
       </provider>
@@ -603,21 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41680962" vertical-offset="403" max-vertical-offset="1088">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding>
-            <marker date="1469298570913" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mentors..." />
-            <marker date="1469298570913" expanded="true" signature="-1:-1" placeholder="SELECT mento..mentor_mentee..." />
-            <marker date="1469298570913" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mentees..." />
-            <marker date="1469298570913" expanded="true" signature="-1:-1" placeholder="SELECT mente..mentor_mentee..." />
-            <marker date="1469298570913" expanded="true" signature="-1:-1" placeholder="select * fro..mentors..." />
-            <marker date="1469298570913" expanded="true" signature="-1:-1" placeholder="select * fro..mentors..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MentorNotifs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
@@ -631,36 +623,6 @@
         <state vertical-scroll-proportion="-5.423077" vertical-offset="46" max-vertical-offset="697">
           <caret line="16" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mentor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2075472" vertical-offset="2557" max-vertical-offset="5559">
-          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1469310200962" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SendSMS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="68" max-vertical-offset="765">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
@@ -755,7 +709,7 @@
         <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1469324008675" expanded="true" signature="66:96" placeholder="DELETE from ..." />
+            <marker date="1469324008675" expanded="true" signature="-1:-1" placeholder="DELETE from ..." />
           </folding>
         </state>
       </provider>
@@ -765,12 +719,12 @@
         <state vertical-scroll-proportion="-16.538462" vertical-offset="386" max-vertical-offset="5117">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <marker date="1469316238097" expanded="true" signature="5371:5405" placeholder="Select * fro..mentees..." />
-            <marker date="1469316238097" expanded="false" signature="5659:5904" placeholder="..." />
-            <marker date="1469316238097" expanded="true" signature="5905:6260" placeholder="..." />
-            <marker date="1469316238097" expanded="true" signature="6655:6688" placeholder="Select * fro..mentees..." />
-            <marker date="1469316238097" expanded="false" signature="6951:7196" placeholder="..." />
-            <marker date="1469316238097" expanded="true" signature="7197:7552" placeholder="..." />
+            <marker date="1469316238097" expanded="true" signature="-1:-1" placeholder="Select * fro..mentees..." />
+            <marker date="1469316238097" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1469316238097" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1469316238097" expanded="true" signature="-1:-1" placeholder="Select * fro..mentees..." />
+            <marker date="1469316238097" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1469316238097" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -781,7 +735,7 @@
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1469310413583" expanded="true" signature="433:525" placeholder="UPDATE meeti..." />
+            <marker date="1469310413583" expanded="true" signature="-1:-1" placeholder="UPDATE meeti..." />
           </folding>
         </state>
       </provider>
@@ -792,17 +746,7 @@
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1469278728903" expanded="true" signature="365:502" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mregister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="646">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding>
-            <marker date="1469324150704" expanded="true" signature="385:492" placeholder="INSERT INTO ..." />
+            <marker date="1469278728903" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -812,7 +756,7 @@
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="4437" max-vertical-offset="5219">
           <caret line="262" column="8" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
           <folding>
-            <marker date="1469316238099" expanded="true" signature="6908:6959" placeholder="select pair_..mentor_mentee..." />
+            <marker date="1469316238099" expanded="true" signature="-1:-1" placeholder="select pair_..mentor_mentee..." />
           </folding>
         </state>
       </provider>
@@ -822,6 +766,47 @@
         <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="4964">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Konnect/models/Mentor.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mregister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="646">
+          <caret line="18" column="132" selection-start-line="18" selection-start-column="132" selection-end-line="18" selection-end-column="132" />
+          <folding>
+            <marker date="1469327318906" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Konnect/mappers/MenteeMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.692307" vertical-offset="658" max-vertical-offset="1224">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1469327513931" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mentees..." />
+            <marker date="1469327513931" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..place..." />
+            <marker date="1469327513931" expanded="true" signature="-1:-1" placeholder="SELECT phone..mentee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menteregister.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="1802" max-vertical-offset="3927">
+          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#6;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,12 +820,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Konnect/mappers/MentorMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.769231" vertical-offset="628" max-vertical-offset="1122">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <marker date="1469327525606" expanded="true" signature="420:495" placeholder="SELECT * FRO..mentors..." />
+            <marker date="1469327525606" expanded="true" signature="880:899" placeholder="SELECT * FRO..place..." />
+            <marker date="1469327525606" expanded="true" signature="1306:1313" placeholder="SELECT * FRO..mento..." />
+            <marker date="1469327525606" expanded="true" signature="1306:1345" placeholder="SELECT phone..mentor..." />
+            <marker date="1469327525606" expanded="true" signature="1306:1346" placeholder="SELECT phone..mentor..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dbconnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51293105" vertical-offset="0" max-vertical-offset="464">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="11" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1469316238098" expanded="true" signature="212:244" placeholder="SELECT * fro..mentees..." />
+            <marker date="1469316238098" expanded="true" signature="562:593" placeholder="SELECT * fro..mentors..." />
+            <marker date="1469316238098" expanded="false" signature="746:910" placeholder="..." />
+            <marker date="1469316238098" expanded="true" signature="911:1131" placeholder="..." />
+            <marker date="1469316238098" expanded="true" signature="1169:1237" placeholder="SELECT * fro..mentors..." />
+            <marker date="1469316238098" expanded="false" signature="1382:1546" placeholder="..." />
+            <marker date="1469316238098" expanded="true" signature="1547:1770" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageUnscheduledMeetings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.269231" vertical-offset="80" max-vertical-offset="663">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Konnect/mappers/MentorMenteePair.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="646" max-vertical-offset="1326">
+          <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+          <folding>
+            <marker date="1469330313745" expanded="true" signature="377:476" placeholder="SELECT * FRO..mentors..." />
+            <marker date="1469330313745" expanded="true" signature="412:466" placeholder="SELECT mento..mentor_mentee..." />
+            <marker date="1469330313745" expanded="true" signature="873:972" placeholder="SELECT * FRO..mentees..." />
+            <marker date="1469330313745" expanded="true" signature="908:962" placeholder="SELECT mente..mentor_mentee..." />
+            <marker date="1469330313745" expanded="true" signature="1364:1533" placeholder="select m1.id..mentors..." />
+            <marker date="1469330313745" expanded="true" signature="1930:1988" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendAutomatedSMS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.038462" vertical-offset="301" max-vertical-offset="816">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <marker date="1469331910818" expanded="true" signature="382:432" placeholder="SELECT * fro..mentor_mentee..." />
+            <marker date="1469331910818" expanded="true" signature="382:433" placeholder="SELECT * fro..mentor_mentee..." />
+            <marker date="1469331910818" expanded="true" signature="608:658" placeholder="SELECT mente..mentor_mentee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendSMS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="918">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mentor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="3026" max-vertical-offset="5474">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20842572" vertical-offset="3833" max-vertical-offset="6545">
+          <caret line="231" column="29" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

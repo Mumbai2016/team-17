@@ -49,7 +49,7 @@ class MentorMenteePair {
     public function getPairDetails($pairId)
     {
         $users = array();
-        $sth = $this->databaseHandler->query("select * from mentors m1,mentees m2,mentor_mentee p
+        $sth = $this->databaseHandler->query("select m1.id as mentor_id, m2.sid as mentee_id from mentors m1,mentees m2,mentor_mentee p
             where m1.id = p.mentor_id AND m2.sid = p.mentee_id AND p.pair_id = $pairId   ");
         $sth->setFetchMode(PDO::FETCH_BOTH);
         if ($sth->rowCount() > 0) {
@@ -57,6 +57,20 @@ class MentorMenteePair {
                 array_push($users, $ob);
             }
             return $users;
+        } else {
+            return FALSE;
+        }
+    }
+
+    public function getOverScheduledMeeting(){
+        $pair = array();
+        $sth = $this->databaseHandler->query("SELECT * FROM `meeting` WHERE success = 0 AND date < NOW() ");
+        $sth->setFetchMode(PDO::FETCH_BOTH);
+        if ($sth->rowCount() > 0) {
+            while ($ob = $sth->fetch()) {
+                array_push($pair, $ob);
+            }
+            return $pair;
         } else {
             return FALSE;
         }

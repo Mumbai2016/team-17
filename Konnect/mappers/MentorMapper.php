@@ -48,4 +48,19 @@ class Mentormapper{
             return FALSE;
         }
     }
+
+    public function getMentorPhoneById($mentor_id)
+    {
+        $mentor = array();
+        $sth = $this->databaseHandler->query("SELECT contact from mentors where ID = $mentor_id");
+        $sth->setFetchMode(PDO::FETCH_BOTH);
+        if ($sth->rowCount() > 0) {
+            while ($ob = $sth->fetch()) {
+                array_push($mentor, $ob);
+            }
+            return $mentor;
+        } else {
+            return FALSE;
+        }
+    }
 }

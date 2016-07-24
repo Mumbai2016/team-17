@@ -49,6 +49,19 @@ class MenteeMapper {
             return FALSE;
         }
     }
-
+    public function getMenteePhoneById($mentee_id)
+    {
+        $mentor = array();
+        $sth = $this->databaseHandler->query("SELECT contact from mentees where SID = $mentee_id");
+        $sth->setFetchMode(PDO::FETCH_BOTH);
+        if ($sth->rowCount() > 0) {
+            while ($ob = $sth->fetch()) {
+                array_push($mentor, $ob);
+            }
+            return $mentor;
+        } else {
+            return FALSE;
+        }
+    }
 
 }
