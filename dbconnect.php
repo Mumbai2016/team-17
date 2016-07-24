@@ -7,8 +7,9 @@
  */
 
 
-@$dbh1 = mysql_connect('localhost', 'root', '');
-@$dbh2 = mysql_connect('localhost', 'root', '',true);
+@$dbh1 = mysql_connect('localhost', 'root', 'root');
+@$dbh2 = mysql_connect('localhost', 'root', 'root',true);
 
 @mysql_select_db('team17', $dbh1);
 @mysql_select_db('team17', $dbh2);
+?>
