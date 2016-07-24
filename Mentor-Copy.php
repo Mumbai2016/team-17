@@ -326,7 +326,8 @@ $mmp->getPairDetails(2);
               
 			<div class="form-group">
               <label for="time"><span>Time:</span></label>
-              <input type="text" class="form-control" id="time" name="time" placeholder="Enter Time">
+              <input type="time" class="form-control" id="time" name="time" placeholder="Enter Time">
+
             </div>
            <div class="form-group">
               <label for="venue"><span>Venue:</span></label>
