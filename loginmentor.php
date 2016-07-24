@@ -57,7 +57,7 @@ $adminMapper = new AdminMapper();
                 $_SESSION['user'] = $resultAdmin;
                 $_SESSION['logged_in'] = true;
                                         $_SESSION['user_type'] = 'admin';
-                                                            header('Location: dash.php');
+                                                            header('Location: Admin.php');
 
 
             }

@@ -96,7 +96,6 @@ $mmp->getPairDetails(2);
     
     
     <!-- Modernizer js -->
-    <script src="assets/js/modernizr.custom.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -119,7 +118,7 @@ $mmp->getPairDetails(2);
 				<a href="C:\Users\user1\Desktop\Konnect\MentorAnnouncement.html" class="page-scroll waves-effect"><i class="fa fa-bullhorn"></i><span>Announcements</span><span class="w3-badge w3-red">8</span></a>
 				<a href="C:\Users\user1\Desktop\Konnect\videoch.html" class="page-scroll waves-effect"><i class="fa fa-bell"></i><span>Reminder</span><span class="w3-badge w3-blue">8</span></a>
 				<a href="C:\Users\user1\Desktop\Konnect\videoch.html" class="page-scroll waves-effect"><i class="fa fa-envelope"></i><span>Send Mail</span></a>
-				<a href="videoch.php" class="page-scroll waves-effect"><i class="fa fa-camera"></i><span>Video Chat</span></a>
+				<a href="videoch.html" class="page-scroll waves-effect"><i class="fa fa-camera"></i><span>Video Chat</span></a>
 				<a href="C:\Users\user1\Desktop\Konnect\MentorAnnouncement.html" class="page-scroll waves-effect"><i class="fa fa-fw fa-comment-o"></i><span>Logout</span></a>
 			</div>
 		</nav>
@@ -237,7 +236,7 @@ $mmp->getPairDetails(2);
 
                         foreach($smeetings as $meeting) {?>
                         <div class="latest-post waves-effect">
-                            <h4>Meeting 1</h4>
+                            <h4>Meetings</h4>
                         
 
                             <p><strong>AGENDA : <?php echo $meeting['agenda'] ?></strong></p>

@@ -187,7 +187,7 @@ onBistriConferenceReady = function () {
 
 // when button "Join Conference Room" has been clicked
 function joinConference(){
-    var roomToJoin = '<?php
+    var roomToJoin = '1';
 @session_start();
 @$userid=$_SESSION['user'][0]['ID'];
 

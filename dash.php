@@ -217,7 +217,7 @@ font-size: 45px;
 
 
 <?php
-if(!mysql_connect('localhost','root','root')||!mysql_select_db('team17jp')){
+if(!mysql_connect('localhost','root','')||!mysql_select_db('team17jp')){
    die('Could not connect to the database');
 }
 	$query="Select * from mentees where MID!=0";
